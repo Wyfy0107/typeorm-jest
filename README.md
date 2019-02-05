@@ -1,2 +1,3 @@
 # typeorm-jest
-Just typeorm with jest integration
+1. `npm install`
+1. `npm test`
