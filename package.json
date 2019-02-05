@@ -1,0 +1,22 @@
+{
+   "name": "typeorm-jest",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/jest": "^23.3.13",
+      "@types/node": "^8.0.29",
+      "jest": "^24.0.0",
+      "ts-jest": "^23.10.5",
+      "ts-node": "3.3.0",
+      "typescript": "2.5.2"
+   },
+   "dependencies": {
+      "typeorm": "0.2.12",
+      "reflect-metadata": "^0.1.10",
+      "pg": "^7.3.0"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "test": "jest --config ./test/jest-e2e.json --detectOpenHandles --forceExit --runInBand"
+   }
+}
